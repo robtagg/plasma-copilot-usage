@@ -1,0 +1,25 @@
+{
+    "KPlugin": {
+        "Id": "com.github.copilot-usage",
+        "Name": "GitHub Copilot Usage",
+        "Description": "Track your GitHub Copilot premium interactions quota",
+        "Icon": "images/copilot-icon-light",
+        "Authors": [
+            {
+                "Email": "rob@tagg.me.uk",
+                "Name": "Rob Tagg"
+            }
+        ],
+        "Category": "Utilities",
+        "License": "GPL-3.0",
+        "Version": "1.0.0",
+        "Website": "https://github.com/robtagg/plasma-copilot-usage"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-ConfigPlugins": [
+        "config/config.qml"
+    ],
+    "X-Plasma-Provides": [],
+    "KPackageStructure": "Plasma/Applet"
+}
